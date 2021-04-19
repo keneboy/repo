@@ -1,0 +1,3 @@
+# From the external.js usinng the https.get() we were able to fetch the data from jsonplaceholder which was handled 
+# asychronously and later the module(external.js) was exported to the task.js file where it consumed by creating a 
+# posts.json where the placeholder file was handled using the writeFile filesystem method.....
